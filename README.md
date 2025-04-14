@@ -7,12 +7,12 @@ TARIFF is a fantastic tool that lets you impose import tariffs on JavaScript pac
 
 ## Installation
 ```bash
-npm install tariff-js
+npm install tariff-nation
 
 ## Usage
 
 ```typescript
-import Tariff from 'tariff-js';
+import Tariff from 'tariff-nation';
 
 // Set your tariff rates (package_name: percentage)
 Tariff.set({

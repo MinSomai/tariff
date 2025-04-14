@@ -1,4 +1,3 @@
-// src/index.ts
 type TariffRates = { [packageName: string]: number };
 
 class Tariff {
@@ -16,7 +15,7 @@ class Tariff {
     // Store the original require function from a fresh module
     const originalRequire = module.constructor.prototype.require;
 
-    module.constructor.prototype.require = function (
+    module.constructor.prototype.require = function(
       this: NodeModule,
       moduleName: string
     ) {
@@ -47,10 +46,10 @@ class Tariff {
 
           console.log(
             `JUST IMPOSED a ${tariffRate}% TARIFF on ${moduleName}! ` +
-              `Original import took ${Math.round(
-                originalTimeUs
-              )} us, now takes ${Math.round(totalTimeUs)} us. ` +
-              `American packages are WINNING AGAIN! #MIPA`
+            `Original import took ${Math.round(
+              originalTimeUs
+            )} us, now takes ${Math.round(totalTimeUs)} us. ` +
+            `American packages are WINNING AGAIN! #MIPA`
           );
         }
 
