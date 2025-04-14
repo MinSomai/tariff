@@ -7,7 +7,7 @@ TARIFF is a fantastic tool that lets you impose import tariffs on JavaScript pac
 
 ## Installation
 ```bash
-npm install tariff
+npm install tariff-js
 
 ## Usage
 
