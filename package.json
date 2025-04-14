@@ -1,6 +1,6 @@
 {
   "name": "tariff-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The GREATEST, most TREMENDOUS JavaScript package that makes importing great again!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
