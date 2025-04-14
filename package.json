@@ -1,0 +1,35 @@
+{
+  "name": "tariff",
+  "version": "1.0.0",
+  "description": "The GREATEST, most TREMENDOUS JavaScript package that makes importing great again!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tariff",
+    "import",
+    "javascript",
+    "parody"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minsomai/tariff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minsomai/tariff/issues"
+  },
+  "homepage": "https://github.com/minsomai/tariff#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "lodash": "^4.17.21"
+  }
+}
